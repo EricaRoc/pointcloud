@@ -1,4 +1,5 @@
-"longdress" folder contains 3 differtent .zip files in which four different distorsion on "longdress_vox10_1051.ply" from the JPEG Pleno Database: 8i Voxelized Full Bodies (8iVFB v2) - A Dynamic Voxelized Point Cloud Dataset are stored. All the names are explicative of the charateristics (e.g. "longdress_vox10_1051_2/3(x10^5)_AddEdge_13_25.ply" on "longdress_vox10_1051.ply" it has been selected a portion with 2x10^5th index as starting point and 3x10^5th index as ending point, was modified using the distorsion named "AddEdge", selecting the 13% of the points of the portion, with distorsion value of 25, in this case is the adding fraction to the original point).  
+"longdress" folder contains 3 differtent .zip files in which four different distorsion on "longdress_vox10_1051.ply" from the JPEG Pleno Database: 8i Voxelized Full Bodies (8iVFB v2) - A Dynamic Voxelized Point Cloud Dataset are stored. All the names are explicative of the charateristics (e.g. "longdress_vox10_1051_2/3(x10^5)_AddEdge_13_25.ply" 
+on "longdress_vox10_1051.ply" it has been selected a portion with 2x10^5th index as starting point and 3x10^5th index as ending point, was modified using the distorsion named "AddEdge", selecting the 13% of the points of the portion, with distorsion value of 25, in this case is the adding fraction to the original point).  
 
 
 Contains: 
