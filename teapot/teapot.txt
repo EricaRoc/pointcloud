@@ -1,0 +1,11 @@
+"teapot" folder contains with a .zip files in which four different distorsion on "teapot.ply" from the Matlab are stored. All the names are explicative of the charateristics (e.g. "teapot_3_AddEdge_13_50.ply" 
+on "teapot.ply" it has been selected a portion of the point cloud, through a random number generator with seed equals to 3, in this case correspons to the teapot's spout, and it was modified using the distorsion named "AddEdge", selecting the 13% of the points of the portion, with distorsion value of 25, where correspons to the adding fraction to the original point).  
+
+
+Contains 17 point clouds, in which n reppresents the seed for the random number generator, assumes the values of 3, 5 or 7 (respectively the teapot's spout, belly and lid's edge):
+         -- "teapot_n_AddEdge" : in the "AddEdge" distortion the position of the voxel of the original point cloud is incresead by a fraction of the original position defined by the distorsion value. (e.g. "teapot_3_AddEdge_13_25.ply" corrisponds to 25).                                              
+         -- "teapot_n_Noise" : in the "Noise" distortion it is added gaussian noise, using a snr value equals to the distorsion value (e.g. "teapot_3_Noise_13_25.ply" corrisponds to 25).                                         
+         -- "teapot_n_DownsampleGrid" : in the "DownsampleGrid" distortion it is used the pcdownsample Matlab function, which downsamples the point cloud, using a grid step value equals to the distorsion value (e.g. "teapot_3_DownsampleGrid_0.1.ply" corrisponds to 0.1).
+         -- "teapot_n_DownsampleRand" : in the "DownsampleRand" distortion it is used the pcdownsample Matlab function, which downsamples the point cloud, selecting a random value of points equals to the distorsion value (e.g."teapot_3_DownsampleRand_13.ply" corrisponds to 13).
+
+
