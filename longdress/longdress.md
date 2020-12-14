@@ -1,1 +1,12 @@
-Longdress
+"longdress" folder contains 3 differtent .zip files in which four different distorsion on "longdress_vox10_1051.ply" from the JPEG Pleno Database: 8i Voxelized Full Bodies (8iVFB v2) - A Dynamic Voxelized Point Cloud Dataset are stored. All the names are explicative of the charateristics (e.g. "longdress_vox10_1051_2/3(x10^5)_AddEdge_13_25.ply" on "longdress_vox10_1051.ply" it has been selected a portion with 2x10^5th index as starting point and 3x10^5th index as ending point, was modified using the distorsion named "AddEdge", selecting the 13% of the points of the portion, with distorsion value of 25, in this case is the adding fraction to the original point).  
+
+
+Contains: 
+    - three .zip files: 
+         -- "longdress_vox10_1051_AddEdge" : in the "AddEdge" distortion the position of the voxel of the original point cloud is incresead by a fraction of the                                                    original position defined by the distorsion value. (e.g. "longdress_vox10_1051_2/3(x10^5)_AddEdge_13_25.ply"                                                        corrisponds to 25).                                              
+         -- "longdress_vox10_1051_Noise" : in the "Noise" distortion it is added gaussian noise, using a snr value equals to the distorsion value (e.g.                                                        "longdress_vox10_1051_2/3(x10^5)_Noise_13_25.ply" corrisponds to 25).                                         
+         -- "longdress_vox10_1051_Downsample" : 
+             --- "longdress_vox10_1051_DownsampleGrid" : in the "DownsampleGrid" distortion it is used the pcdownsample Matlab function, which downsamples the point                                                          cloud, using a grid step value equals to the distorsion value (e.g.                     
+                                                         "longdress_vox10_1051_2/3(x10^5)_DownsampleGrid_5.ply" corrisponds to 5).
+             --- "longdress_vox10_1051_DownsampleRand" : in the "DownsampleRand" distortion it is used the pcdownsample Matlab function, which downsamples the point                                                          cloud, selecting a random value of points equals to the distorsion value (e.g.                     
+                                                         "longdress_vox10_1051_2/3(x10^5)_DownsampleGrid_13.ply" corrisponds to 13).
