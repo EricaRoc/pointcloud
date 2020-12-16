@@ -7,5 +7,4 @@ Contains:
          -- "loot_vox10_1082_Noise" : in the "Noise" distortion it is added gaussian noise, using a snr value equals to the distortion value (e.g. "loot_vox10_1082_3/6(x10^5)_Noise_13_25.ply" corresponds to 25).                                      
          -- "loot_vox10_1082_Downsample" : 
              --- "loot_vox10_1082_DownsampleGrid" : in the "DownsampleGrid" distortion it is used the pcdownsample Matlab function, which downsamples the point cloud, using a grid step value equals to the distortion value (e.g. "loot_vox10_1082_3/6(x10^5)_DownsampleGrid_13_25.ply" corresponds to 5).
-             --- "loot_vox10_1082_DownsampleRand" : in the "DownsampleRand" distortion it is used the pcdownsample Matlab function, which downsamples the point cloud, selecting a random value of points equals to the distortion value (e.g."longdress_vox10_1051_2/3(x10^5)_DownsampleRand_13.ply" corresponds to 13).
-
+             --- "loot_vox10_1082_DownsampleRand" : in the "DownsampleRand" distortion it is used the pcdownsample Matlab function, which downsamples the point cloud, selecting a random percentage of output points equals to the distortion value (e.g."loot_vox10_1082_3/6(x10^5)_DownsampleRand_13.ply" corresponds to 13, so the 87% of the points will be downsampled).
