@@ -6,6 +6,6 @@ Contains 17 point clouds, in which n represents the seed for the random number g
          -- "teapot_n_AddEdge" : in the "AddEdge" distortion the position of the voxel of the original point cloud is increased by a fraction of the original position defined by the distortion value. (e.g., "teapot_3_AddEdge_13_25.ply" corresponds to 25).                                              
          -- "teapot_n_Noise" : in the "Noise" distortion it is added gaussian noise, using a snr value equals to the distortion value (e.g. "teapot_3_Noise_13_25.ply" corresponds to 25).                                         
          -- "teapot_n_DownsampleGrid" : in the "DownsampleGrid" distortion it is used the pcdownsample Matlab function, which downsamples the point cloud, using a grid step value equals to the distortion value (e.g. "teapot_3_DownsampleGrid_0.1.ply" corresponds to 0.1).
-         -- "teapot_n_DownsampleRand" : in the "DownsampleRand" distortion it is used the pcdownsample Matlab function, which downsamples the point cloud, selecting a random value of points equals to the distorsion value (e.g."teapot_3_DownsampleRand_13.ply" corresponds to 13).
+         -- "teapot_n_DownsampleRand" : in the "DownsampleRand" distortion it is used the pcdownsample Matlab function, which downsamples the point cloud, selecting a random percentage of output points equals to the distortion value (e.g."teapot_DownsampleRand_13.ply" corresponds to 13, so the 87% of the points will be downsampled).
 
 
